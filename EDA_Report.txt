@@ -1,0 +1,42 @@
+EXPLORATORY DATA ANALYSIS REPORT
+============================================================
+
+Rows: 20
+Columns: 7
+
+MISSING VALUES
+Student_ID           0
+Age                  0
+Gender               0
+Study_Hours          0
+Attendance           0
+Assignments_Score    0
+Exam_Score           0
+dtype: int64
+
+STATISTICAL SUMMARY
+       Student_ID        Age  Study_Hours  Attendance  Assignments_Score  Exam_Score
+count    20.00000  20.000000    20.000000   20.000000           20.00000   20.000000
+mean     10.50000  20.800000     3.850000   83.700000           74.20000   77.550000
+std       5.91608   1.239694     1.755443    8.578431           13.05696   12.424403
+min       1.00000  19.000000     1.000000   68.000000           50.00000   54.000000
+25%       5.75000  20.000000     2.750000   78.750000           65.00000   69.250000
+50%      10.50000  21.000000     4.000000   83.500000           75.50000   78.500000
+75%      15.25000  22.000000     5.000000   89.250000           84.25000   87.250000
+max      20.00000  23.000000     7.000000   98.000000           95.00000   97.000000
+
+OUTLIER ANALYSIS
+Student_ID: 0 outliers
+Age: 0 outliers
+Study_Hours: 0 outliers
+Attendance: 0 outliers
+Assignments_Score: 0 outliers
+Exam_Score: 0 outliers
+
+STRONG CORRELATIONS
+Study_Hours <-> Attendance = 0.99
+Study_Hours <-> Assignments_Score = 0.99
+Study_Hours <-> Exam_Score = 0.99
+Attendance <-> Assignments_Score = 0.99
+Attendance <-> Exam_Score = 0.99
+Assignments_Score <-> Exam_Score = 1.00
